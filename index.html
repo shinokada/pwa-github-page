@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub page as PWA template</title>
+  <link rel="canonical" href="https://shinokada.github.io/pwa-github-page/" />
+  <link rel="manifest" href="/pwa-github-page/manifest.webmanifest">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="apple-touch-icon" href="/pwa-github-page/img/apple-touch-icon.png">
+</head>
+
+<body>
+
+  <h1>GitHub page as PWA template</h1>
+  <p>
+    This is a PWA template for GitHub pages.
+  </p>
+
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register(
+        '/pwa-github-page/service-worker.js', {
+          scope: '/pwa-github-page/'
+        }
+      )
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "Creating a Progressive Web App using a GitHub page",
+  "short_name": "CPWA",
+  "description": "Creating a Progressive Web App using a GitHub page",
+  "scope": "/pwa-github-page/",
+  "start_url": "/pwa-github-page/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/pwa-github-page/img/icon.png",
+      "type": "image/png",
+      "sizes": "700x700"
+    },
+    {
+      "src": "/pwa-github-page/img/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
